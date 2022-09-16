@@ -1,0 +1,23 @@
+{
+    "sqltools.connections": [
+
+        {
+            "authenticator": "SNOWFLAKE",
+            "ocspOptions": {
+                "ocspFailOpen": true
+            },
+            "snowflakeOptions": {
+                "clientSessionKeepAlive": true,
+                "clientSessionKeepAliveHeartbeatFrequency": 3600
+            },
+            "previewLimit": 50,
+            "driver": "Snowflake",
+            "name": "SnowSQL",
+            "account": "bz17517.ap-south-1.aws",
+            "username": "ORIFJONUZB",
+            "password": "Uzborif2409",
+            "database": "orif",
+            "warehouse": "COMPUTE_WH"
+        }
+    ]
+}
