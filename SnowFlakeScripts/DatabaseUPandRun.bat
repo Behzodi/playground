@@ -1,0 +1,1 @@
+snowsql -f .\DDLforNIAC.sql
